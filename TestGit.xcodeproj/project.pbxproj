@@ -15,6 +15,7 @@
 		95E8CD0620158DC600BB1256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E8CD0520158DC600BB1256 /* main.m */; };
 		95E8CD1020158DC600BB1256 /* TestGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E8CD0F20158DC600BB1256 /* TestGitTests.m */; };
 		95E8CD1B20158DC600BB1256 /* TestGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E8CD1A20158DC600BB1256 /* TestGitUITests.m */; };
+		95E8CD2A2015B4EC00BB1256 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E8CD292015B4EC00BB1256 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		95E8CD1620158DC600BB1256 /* TestGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E8CD1A20158DC600BB1256 /* TestGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitUITests.m; sourceTree = "<group>"; };
 		95E8CD1C20158DC600BB1256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E8CD282015B4EC00BB1256 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		95E8CD292015B4EC00BB1256 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				95E8CCF720158DC600BB1256 /* AppDelegate.m */,
 				95E8CCF920158DC600BB1256 /* ViewController.h */,
 				95E8CCFA20158DC600BB1256 /* ViewController.m */,
+				95E8CD282015B4EC00BB1256 /* Person.h */,
+				95E8CD292015B4EC00BB1256 /* Person.m */,
 				95E8CCFC20158DC600BB1256 /* Main.storyboard */,
 				95E8CCFF20158DC600BB1256 /* Assets.xcassets */,
 				95E8CD0120158DC600BB1256 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				95E8CCFB20158DC600BB1256 /* ViewController.m in Sources */,
 				95E8CD0620158DC600BB1256 /* main.m in Sources */,
+				95E8CD2A2015B4EC00BB1256 /* Person.m in Sources */,
 				95E8CCF820158DC600BB1256 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
