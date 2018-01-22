@@ -20,6 +20,10 @@
     NSLog(@"这个是一个git管理测试的demo");
     
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    NSLog(@"我重新下载了这个项目");
 }
 
 
