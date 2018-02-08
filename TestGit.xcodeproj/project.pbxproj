@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95AC152A202C216300176CC5 /* Person1.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AC1529202C216300176CC5 /* Person1.m */; };
 		95E8CCF820158DC600BB1256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E8CCF720158DC600BB1256 /* AppDelegate.m */; };
 		95E8CCFB20158DC600BB1256 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E8CCFA20158DC600BB1256 /* ViewController.m */; };
 		95E8CCFE20158DC600BB1256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E8CCFC20158DC600BB1256 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95AC1528202C216300176CC5 /* Person1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person1.h; sourceTree = "<group>"; };
+		95AC1529202C216300176CC5 /* Person1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person1.m; sourceTree = "<group>"; };
 		95E8CCF320158DC600BB1256 /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E8CCF620158DC600BB1256 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95E8CCF720158DC600BB1256 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				95E8CCF720158DC600BB1256 /* AppDelegate.m */,
 				95E8CCF920158DC600BB1256 /* ViewController.h */,
 				95E8CCFA20158DC600BB1256 /* ViewController.m */,
+				95AC1528202C216300176CC5 /* Person1.h */,
+				95AC1529202C216300176CC5 /* Person1.m */,
 				95E8CD282015B4EC00BB1256 /* Person.h */,
 				95E8CD292015B4EC00BB1256 /* Person.m */,
 				95E8CCFC20158DC600BB1256 /* Main.storyboard */,
@@ -273,6 +278,7 @@
 				95E8CCFB20158DC600BB1256 /* ViewController.m in Sources */,
 				95E8CD0620158DC600BB1256 /* main.m in Sources */,
 				95E8CD2A2015B4EC00BB1256 /* Person.m in Sources */,
+				95AC152A202C216300176CC5 /* Person1.m in Sources */,
 				95E8CCF820158DC600BB1256 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
