@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95AC152D202C235C00176CC5 /* Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AC152C202C235C00176CC5 /* Name.m */; };
 		95E8CCF820158DC600BB1256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E8CCF720158DC600BB1256 /* AppDelegate.m */; };
 		95E8CCFB20158DC600BB1256 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E8CCFA20158DC600BB1256 /* ViewController.m */; };
 		95E8CCFE20158DC600BB1256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E8CCFC20158DC600BB1256 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95AC152B202C235C00176CC5 /* Name.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Name.h; sourceTree = "<group>"; };
+		95AC152C202C235C00176CC5 /* Name.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Name.m; sourceTree = "<group>"; };
 		95E8CCF320158DC600BB1256 /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E8CCF620158DC600BB1256 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95E8CCF720158DC600BB1256 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				95E8CCFA20158DC600BB1256 /* ViewController.m */,
 				95E8CD282015B4EC00BB1256 /* Person.h */,
 				95E8CD292015B4EC00BB1256 /* Person.m */,
+				95AC152B202C235C00176CC5 /* Name.h */,
+				95AC152C202C235C00176CC5 /* Name.m */,
 				95E8CCFC20158DC600BB1256 /* Main.storyboard */,
 				95E8CCFF20158DC600BB1256 /* Assets.xcassets */,
 				95E8CD0120158DC600BB1256 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AC152D202C235C00176CC5 /* Name.m in Sources */,
 				95E8CCFB20158DC600BB1256 /* ViewController.m in Sources */,
 				95E8CD0620158DC600BB1256 /* main.m in Sources */,
 				95E8CD2A2015B4EC00BB1256 /* Person.m in Sources */,
